@@ -1,0 +1,69 @@
+﻿# Rider та IntelliJ
+.idea/
+*.sln.iml
+/_ReSharper.Caches/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.rsuser
+*.sln.docstates
+
+# Папки з білдами
+bin/
+obj/
+artifacts/
+
+# Конфігурація та кеші
+*.log
+*.cache
+*.pidb
+*.pdb
+*.tlog
+*.tmp
+*.dbmdl
+
+# Файли тестів
+TestResults/
+*.coverage
+*.coveragexml
+*.nunit.xml
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Конфігурація IDE
+*.DotSettings.user
+*.userprefs
+
+# Локальні історії
+.history/
+.localhistory/
+
+# Node.js (якщо є фронтенд)
+node_modules/
+wwwroot/node_modules/
+
+# Публікація та деплой
+publish/
+*.Publish.xml
+*.pubxml
+*.publishproj
+
+# Azure, IIS, SQL Server
+AppPackages/
+ecf/
+rcf/
+*.mdf
+*.ldf
+*.ndf
+
+# Docker, Kubernetes
+.dockerignore
+.docker-compose*
+k8s/
